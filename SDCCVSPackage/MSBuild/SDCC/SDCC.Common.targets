@@ -80,11 +80,11 @@
     </PropertyPageSchema>
 
     <!-- Import the Port specific Property sheet data. -->
-    <PropertyPageSchema Condition="'$(PortType)' == 'gbz80'" Include="$(MSBuildThisFileDirectory)$(GBDKLangID)/SDCC.gbz80.xml">
+    <PropertyPageSchema Condition="'$(PortType)' == 'sm83'" Include="$(MSBuildThisFileDirectory)$(GBDKLangID)/SDCC.sm83.xml">
       <Context>PropertySheet;Project;File</Context>
     </PropertyPageSchema>
 
-    <PropertyPageSchema Condition="'$(PortType)' == 'gbz80'" Include="$(MSBuildThisFileDirectory)GBDK/SDCC.GBDK.xml">
+    <PropertyPageSchema Condition="'$(PortType)' == 'sm83'" Include="$(MSBuildThisFileDirectory)GBDK/SDCC.GBDK.xml">
       <Context>Project</Context>
     </PropertyPageSchema>
 

@@ -1,0 +1,19 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>VC\SDCC\1033\SDCC.ProjectTemplate</RelativePathOnDisk>
+    <TemplateFileName>SDCCProjectTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>SDCC Project</Name>
+        <Description>Create a SDCC C Project</Description>
+        <Icon>SDCCProjectTemplate.ico</Icon>
+        <ProjectType>VC</ProjectType>
+        <SortOrder>1000</SortOrder>
+        <TemplateID>bb893ca4-8707-4091-bb63-849fceb0b632</TemplateID>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>ProjectName</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

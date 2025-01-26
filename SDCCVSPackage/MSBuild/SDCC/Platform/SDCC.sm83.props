@@ -1,12 +1,12 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <!-- SDCC GBZ80 Overrides -->
-  <PropertyGroup Label="Globals" Condition="'$(PortType)' == 'gbz80'">
+  <!-- SDCC SM83 Overrides -->
+  <PropertyGroup Label="Globals" Condition="'$(PortType)' == 'sm83'">
     <Extension Condition="'$(BuildFormat)' != 'Library'">.gb</Extension>
     <Extension Condition="'$(BuildFormat)' == 'Library'">.lib</Extension>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(PortType)' == 'gbz80'">
+  <PropertyGroup Condition="'$(PortType)' == 'sm83'">
 
     <!-- SDCC Linker Overrides -->
     <GenerateMapFile Condition="'$(GenerateMapFile)' == ''">true</GenerateMapFile>
@@ -26,7 +26,7 @@
 
   </PropertyGroup>
 
-  <ItemDefinitionGroup Condition="'$(PortType)' == 'gbz80'">
+  <ItemDefinitionGroup Condition="'$(PortType)' == 'sm83'">
     <!-- SDCC Assembler Overrides -->
     <AsmCompile>
       <DisableAutoListingPagination Condition="'%(AsmCompile.DisableAutoListingPagination)' == ''">true</DisableAutoListingPagination>

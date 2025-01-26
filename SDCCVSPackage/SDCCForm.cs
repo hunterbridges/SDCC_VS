@@ -25,7 +25,7 @@ namespace SDCCVSPackage
             PortType.Items.Add("z180");
             PortType.Items.Add("r2k");
             PortType.Items.Add("r3ka");
-            PortType.Items.Add("gbz80");
+            PortType.Items.Add("sm83");
             PortType.Items.Add("tlcs90");
             PortType.Items.Add("ez80_z80");
             PortType.Items.Add("stm8");

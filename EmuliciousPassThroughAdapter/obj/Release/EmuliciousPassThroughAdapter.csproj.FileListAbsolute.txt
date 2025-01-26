@@ -1,0 +1,13 @@
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\EmuliciousPassThroughAdapter.exe.config
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\EmuliciousPassThroughAdapter.exe
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\EmuliciousPassThroughAdapter.pdb
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\Microsoft.VisualStudio.Shared.VSCodeDebugProtocol.dll
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\Newtonsoft.Json.dll
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\EmuliciousShared.dll
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\bin\Release\EmuliciousShared.pdb
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\obj\Release\EmuliciousPassThroughAdapter.csproj.AssemblyReference.cache
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\obj\Release\EmuliciousPassThroughAdapter.exe.config
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\obj\Release\EmuliciousPassThroughAdapter.csproj.CoreCompileInputs.cache
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\obj\Release\EmuliciousPassThroughAdapter.csproj.CopyComplete
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\obj\Release\EmuliciousPassThroughAdapter.exe
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousPassThroughAdapter\obj\Release\EmuliciousPassThroughAdapter.pdb

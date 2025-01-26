@@ -161,12 +161,12 @@
       <Link>MSBuild\SDCC\Platform\SDCC.ez80_z80.props</Link>
       <Visible>true</Visible>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)MSBuild\SDCC\Platform\SDCC.gbz80.props">
+    <Content Include="$(MSBuildThisFileDirectory)MSBuild\SDCC\Platform\SDCC.sm83.props">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>MSBuild</InstallRoot>
       <VSIXSubPath>SDCC/Platform</VSIXSubPath>
       <SubType>Designer</SubType>
-      <Link>MSBuild\SDCC\Platform\SDCC.gbz80.props</Link>
+      <Link>MSBuild\SDCC\Platform\SDCC.sm83.props</Link>
       <Visible>true</Visible>
     </Content>
     <Content Include="$(MSBuildThisFileDirectory)MSBuild\SDCC\Platform\SDCC.hc08.props">
@@ -338,12 +338,12 @@
       <Link>MSBuild\SDCC\1033\SDCC.Common.xml</Link>
       <Visible>true</Visible>
     </Content>
-    <Content Include="$(MSBuildThisFileDirectory)MSBuild\SDCC\1033\SDCC.gbz80.xml">
+    <Content Include="$(MSBuildThisFileDirectory)MSBuild\SDCC\1033\SDCC.sm83.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
       <InstallRoot>MSBuild</InstallRoot>
       <VSIXSubPath>SDCC/1033</VSIXSubPath>
       <SubType>Designer</SubType>
-      <Link>MSBuild\SDCC\1033\SDCC.gbz80.xml</Link>
+      <Link>MSBuild\SDCC\1033\SDCC.sm83.xml</Link>
       <Visible>true</Visible>
     </Content>
     <Content Include="$(MSBuildThisFileDirectory)MSBuild\SDCC\1033\SDLD.Common.xml">

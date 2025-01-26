@@ -118,7 +118,7 @@
             this.PortType.Name = "PortType";
             this.PortType.Size = new System.Drawing.Size(167, 21);
             this.PortType.TabIndex = 3;
-            this.PortType.Text = "gbz80";
+            this.PortType.Text = "sm83";
             // 
             // SDCCForm
             // 

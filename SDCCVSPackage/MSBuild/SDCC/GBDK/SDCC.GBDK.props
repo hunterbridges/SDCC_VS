@@ -25,10 +25,10 @@
   <PropertyGroup Condition="'$(GBDKSupported)' == 'true' and '$(GBDKType)' == 'GBDK-2020'">
     <!-- Update properties for default GBDK options. -->
     <AdditionalIncludeDirectories>$(AdditionalIncludeDirectories);$(GBDKIncludePath);$(GBDKAsmIncludePath);$(GBDKLibCPath)</AdditionalIncludeDirectories>
-    <AdditionalLibraryPath>$(AdditionalLibraryPath);$(GBDKLibPath);$(GBDKLibPath)/small/asxxxx/gb;$(GBDKLibPath)/small/asxxxx/gbz80</AdditionalLibraryPath>
-    <IncludeLibraries>gb.lib;gbz80.lib</IncludeLibraries>
+    <AdditionalLibraryPath>$(AdditionalLibraryPath);$(GBDKLibPath);$(GBDKLibPath)\gb;$(GBDKLibPath)\sm83</AdditionalLibraryPath>
+    <IncludeLibraries>gb.lib;sm83.lib</IncludeLibraries>
     <DataLocation>0xc0a0</DataLocation>
-    <CustomCrt>$(GBDKLibPath)/small/asxxxx/gb/crt0.rel</CustomCrt>
+    <CustomCrt>$(GBDKLibPath)\gb\crt0.o</CustomCrt>
     <GlobalSymbols>_shadow_OAM=0xC000;.STACK=0xDEFF;.refresh_OAM=0xFF80</GlobalSymbols>
   </PropertyGroup>
 

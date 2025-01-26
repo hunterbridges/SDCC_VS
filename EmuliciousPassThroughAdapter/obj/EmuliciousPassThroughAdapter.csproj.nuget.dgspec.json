@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousPassThroughAdapter\\EmuliciousPassThroughAdapter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousPassThroughAdapter\\EmuliciousPassThroughAdapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousPassThroughAdapter\\EmuliciousPassThroughAdapter.csproj",
+        "projectName": "EmuliciousPassThroughAdapter",
+        "projectPath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousPassThroughAdapter\\EmuliciousPassThroughAdapter.csproj",
+        "packagesPath": "C:\\Users\\hunte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousPassThroughAdapter\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\hunte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\EmuliciousShared.csproj": {
+                "projectPath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\EmuliciousShared.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Shared.VsCodeDebugProtocol": {
+              "target": "Package",
+              "version": "[16.6.40406.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\EmuliciousShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\EmuliciousShared.csproj",
+        "projectName": "EmuliciousShared",
+        "projectPath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\EmuliciousShared.csproj",
+        "packagesPath": "C:\\Users\\hunte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\hunte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Rule
-    Name="SDCC GBZ80"
+    Name="SDCC SM83"
     PageTemplate="tool"
     DisplayName="SDCC"
     SwitchPrefix="-"
@@ -10,7 +10,7 @@
     xmlns:sys="clr-namespace:System;assembly=mscorlib">
   <Rule.Categories>
     <Category
-        Name="gbz80"
+        Name="sm83"
         DisplayName="Gbz80"/>
   </Rule.Categories>
   <Rule.DataSource>
@@ -23,17 +23,17 @@
 
   <!--
   **************************************
-  * GBZ80 Specific rules
+  * SM83 Specific rules
   **************************************
   
-Special options for the gbz80 port:
+Special options for the sm83 port:
     -bo                   <num> use code bank <num>
   -->
   <IntProperty
     Name="CodeBank"
     DisplayName="Use Code Bank"
     Description="Use code bank &lt;Num&gt;.     (-bo&lt;Num&gt;)"
-    Category="gbz80"
+    Category="sm83"
     Switch="bo"
     F1Keyword="VC.Project.SDCCCompilerTool.CodeBank"/>
   <!--
@@ -43,7 +43,7 @@ Special options for the gbz80 port:
     Name="DataBank"
     DisplayName="Use Data Bank"
     Description="Use data bank &lt;Num&gt;.     (-bo&lt;Num&gt;)"
-    Category="gbz80"
+    Category="sm83"
     Switch="ba"
     F1Keyword="VC.Project.SDCCCompilerTool.DataBank"/>
   <!--
@@ -53,7 +53,7 @@ Special options for the gbz80 port:
     Name="CalleeSavesBC"
     DisplayName="Callee Saves BC"
     Description="Force a called function to always save BC.     (--callee-saves-bc)"
-    Category="gbz80"
+    Category="sm83"
     Switch="-callee-saves-bc"
     F1Keyword="VC.Project.SDCCCompilerTool.CalleeSavesBC"/>
   <!--
@@ -63,7 +63,7 @@ Special options for the gbz80 port:
     Name="CodeSeg"
     DisplayName="Code Segment Name"
     Description="Use this name for the code segment.     (--codeseg &lt;name&gt;)"
-    Category="gbz80"
+    Category="sm83"
     Switch="-codeseg"
     F1Keyword="VC.Project.SDCCCompilerTool.CodeSeg">
     <StringProperty.DataSource>
@@ -81,7 +81,7 @@ Special options for the gbz80 port:
     Name="ConstSeg"
     DisplayName="Const Segment Name"
     Description="Use this name for the const segment.     (--constseg &lt;name&gt;)"
-    Category="gbz80"
+    Category="sm83"
     Switch="-constseg"
     F1Keyword="VC.Project.SDCCCompilerTool.ConstSeg">
     <StringProperty.DataSource>
@@ -99,7 +99,7 @@ Special options for the gbz80 port:
     Name="DataSeg"
     DisplayName="Data Segment Name"
     Description="Use this name for the data segment.     (--dataseg &lt;name&gt;)"
-    Category="gbz80"
+    Category="sm83"
     Switch="-dataseg"
     F1Keyword="VC.Project.SDCCCompilerTool.DataSeg">
     <StringProperty.DataSource>
@@ -111,13 +111,13 @@ Special options for the gbz80 port:
     </StringProperty.DataSource>
   </StringProperty>
   <!--
-    - -no-std-crt0         For the z80/gbz80 do not link default crt0.rel
+    - -no-std-crt0         For the z80/sm83 do not link default crt0.rel
   -->
   <BoolProperty
     Name="NoStdCRT"
     DisplayName="No Std CRT"
-    Description="For the z80/gbz80 do not link default crt0.rel.     (--no-std-crt0)"
-    Category="gbz80"
+    Description="For the z80/sm83 do not link default crt0.rel.     (--no-std-crt0)"
+    Category="sm83"
     Switch="-no-std-crt0"
     F1Keyword="VC.Project.SDCCCompilerTool.NoStdCRT"/>
 
@@ -125,7 +125,7 @@ Special options for the gbz80 port:
     Name="CustomCrt"
     DisplayName="Custom CRT"
     Description="Path to the custom CRT."
-    Category="gbz80"
+    Category="sm83"
     F1Keyword="VC.Project.SDCCCompilerTool.CustomCrt">
     <StringProperty.DataSource>
       <DataSource

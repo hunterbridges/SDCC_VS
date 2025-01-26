@@ -1,0 +1,8 @@
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\bin\Release\EmuliciousShared.dll
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\bin\Release\EmuliciousShared.pdb
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\bin\Release\Newtonsoft.Json.dll
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\obj\Release\EmuliciousShared.csproj.AssemblyReference.cache
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\obj\Release\EmuliciousShared.csproj.CoreCompileInputs.cache
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\obj\Release\EmuliciousShared.csproj.CopyComplete
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\obj\Release\EmuliciousShared.dll
+C:\Users\hunte\Projects\Homebrew\SDCC_VS\EmuliciousShared\obj\Release\EmuliciousShared.pdb

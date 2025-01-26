@@ -166,7 +166,7 @@ namespace SDCCTask
                     new string[2]{ "z180", "-mz180" },
                     new string[2]{ "r2k", "-mr2k" },
                     new string[2]{ "r3ka", "-mr3ka" },
-                    new string[2]{ "gbz80", "-mgbz80" },
+                    new string[2]{ "sm83", "-msm83" },
                     new string[2]{ "tlcs90", "-mtlcs90" },
                     new string[2]{ "ez80_z80", "-mez80_z80" },
                     new string[2]{ "stm8", "-mstm8" },
@@ -1364,7 +1364,7 @@ namespace SDCCTask
                 this.ActiveToolSwitches.Remove(nameof(MaxAllocsPerNode));
                 ToolSwitch switchToAdd = new ToolSwitch(ToolSwitchType.Integer);
                 switchToAdd.DisplayName = "Max Allocations Per Node";
-                switchToAdd.Description = "Setting this to a high value will result in increased compilation time and more optimized code being generated. Setting it to lower values speed up compilation, but does not optimize as much. The default value is 3000. This option currently only affects the hc08, s08, z80, z180, r2k, r3ka and gbz80 ports.     (--max-allocs-per-node)";
+                switchToAdd.Description = "Setting this to a high value will result in increased compilation time and more optimized code being generated. Setting it to lower values speed up compilation, but does not optimize as much. The default value is 3000. This option currently only affects the hc08, s08, z80, z180, r2k, r3ka and sm83 ports.     (--max-allocs-per-node)";
                 //switchToAdd.Parents.AddLast("");
                 switchToAdd.ArgumentRelationList = new ArrayList();
                 switchToAdd.IsValid = this.ValidateInteger(nameof(MaxAllocsPerNode), int.MinValue, int.MaxValue, value);

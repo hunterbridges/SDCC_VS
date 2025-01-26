@@ -406,10 +406,10 @@ Code generation options:
       DisplayName="Rabbit 3000A" 
       Description="Generate code for the Rabbit 3000A family of processors."/>
     <EnumValue 
-      Switch="mgbz80" 
-      Name="gbz80" 
-      DisplayName="GameBoy Z80" 
-      Description="Generate code for the LR35902 GameBoy Z80 processor"/>
+      Switch="msm83" 
+      Name="sm83" 
+      DisplayName="Sharp SM83" 
+      Description="Generate code for the LR35902 Sharp SM83 processor"/>
     <EnumValue 
       Switch="mtlcs90" 
       Name="tlcs90" 

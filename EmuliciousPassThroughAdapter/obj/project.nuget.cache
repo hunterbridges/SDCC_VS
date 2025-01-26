@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sMC8K9SvU9rdqgRHz3J3rNH/d+XrLYtDc8jrIwNtZEOEfqTpnsFsoBPHkFH/xx2Edk+Tv1q2RZzuIFG1y4aGvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousPassThroughAdapter\\EmuliciousPassThroughAdapter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hunte\\.nuget\\packages\\microsoft.visualstudio.shared.vscodedebugprotocol\\16.6.40406.1\\microsoft.visualstudio.shared.vscodedebugprotocol.16.6.40406.1.nupkg.sha512",
+    "C:\\Users\\hunte\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

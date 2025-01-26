@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J+iSIYGOt6bnD2QwgX40Lg627l5sQL7eAvo74mox3PkRQzmZjRSdf7aYjDZ7edrE4KJGd7hEhFJGGMBbNq9ujw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hunte\\Projects\\Homebrew\\SDCC_VS\\EmuliciousShared\\EmuliciousShared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hunte\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
